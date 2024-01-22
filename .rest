@@ -1,5 +1,8 @@
-GET http://localhost:3000HTTP/1.1
+GET http://localhost:3000 HTTP/1.1
 
 ###
 
-GET http://localhost:3000/GarrikHTTP/1.1
+GET http://localhost:3000/Garrik HTTP/1.1
+
+###
+GET https://sariahtrying.onrender.com HTTP/1.1
