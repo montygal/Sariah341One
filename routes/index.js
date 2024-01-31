@@ -1,7 +1,10 @@
-const routes = require('express').Router();
-const myController = require('../controllers');
+const express = require('express');
 
-routes.get('/', myController.Sariah);
-routes.get('/Garrik', myController.Garrik);
+const professionalController = require('../controllers/professional');
 
-module.exports = routes;
+const router = express.Router();
+
+// GET /feed/posts
+router.get('/', professionalController.getData);
+// localhost:8080/professional/
+module.exports = router;
